@@ -166,6 +166,15 @@
     </package>
     <depends language="en-US" version="5.2"/>
   </voice>
+  <voice gender="female" locale="en-US" name="" type="marytts.unitselection.UnitSelectionVoice" version="5.3-SNAPSHOT">
+    <description>A female English general voice demo tested by avinash</description>
+    <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
+    <package filename="voice-my_voice_demo_avi-5.3-SNAPSHOT.zip" md5sum="202e3c9b94e546acb172a7732cedc5fa" size="104710696">
+      <location folder="true" href="http://mary.dfki.de/download/5.3-SNAPSHOT/"/>
+    </package>
+    <files>lib/voice-my_voice_demo_avi-5.3-SNAPSHOT.jar</files>
+    <depends language="en" version="5.3-SNAPSHOT"/>
+  </voice>
   <voice locale="en_US" name="cmu-bdl-hsmm" gender="male" type="hsmm" version="5.2">
     <description>A male US English hidden semi-Markov model voice, built from recordings provided by Carnegie Mellon University</description>
     <license href="http://mary.dfki.de/download/arctic-license.html"/>
